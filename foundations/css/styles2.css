@@ -4,7 +4,7 @@ a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` a
 s a fallback*/
 
 .parag {
-    background-color: pink;
+    background-color: lightpink;
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
@@ -12,6 +12,7 @@ s a fallback*/
 numbered elements, add a font size of 24px*/
 .parag.parag2 {
     font-size: 24px;
+    font-weight: bold;
 }
 
 /* **The second element**: blue text and a font size of 36px*/
