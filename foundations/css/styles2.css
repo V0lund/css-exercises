@@ -1,0 +1,28 @@
+/*styles css*/
+/* **All odd numbered elements**: a light red/pink background, and 
+a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` a
+s a fallback*/
+
+.parag {
+    background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+/* **The third element**: in addition to the styles for all odd 
+numbered elements, add a font size of 24px*/
+.parag.parag2 {
+    font-size: 24px;
+}
+
+/* **The second element**: blue text and a font size of 36px*/
+#div1 {
+    color: blue;
+    font-size: 36px;
+}
+
+/* **The fourth element**: a light green background, a font size of 24px, and bold*/
+#div2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
